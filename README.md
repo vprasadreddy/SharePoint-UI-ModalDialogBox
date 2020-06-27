@@ -1,4 +1,4 @@
-# To show an alert message in a Modal Dialog Box in SharePoint
+# To show an alert message in SharePoint UI Modal Dialog Box.
 ```
 <html>
 <head>
