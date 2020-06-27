@@ -28,13 +28,11 @@ setTimeout(function(){ window.location.href = "https://www.google.com/"; }, 3000
 }
 /* function to display alert message in SharePoint Dialogbox */
 function displaySiteMigratedAlert() {
-
 	SP.UI.ModalDialog.showModalDialog({
 		title: "Alert!!!",
 		width: 900,
 		height: 200,
 		html: document.getElementById("CustomMessage")
-
 	});
 	$("#CustomMessage").removeClass("hidden");
 }
